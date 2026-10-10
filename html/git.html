@@ -4,7 +4,7 @@
       <title>Git - всему голова!</title>
       <link rel="stylesheet" type="text/css" href="../css/style.css">
       <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
-      <link rel="shortcut icon" href="../img/fav.ico" type="image/x-icon">
+      <link rel="shortcut icon" href="../img/fav1.ico" type="image/x-icon">
       <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,19 +14,30 @@
       <div class="card">
          <p class="subtitle">Git</p>
           <ul>
-            <li>ls - расшифровывается как "List files in the directory", что переводится как "перечислить все файлы в папке" или "вывести на экран список файлов в папке".</li>
-            <li>cd - расшифровывается как "Change directory", что переводится как "сменить папку" или "перейти в другую папку".</li>
-            <li>pwd - расшифровывается как "Present working directory", что переводится как "текущая рабочая директория". То есть команда pwd показывает, в какой сейчас папке мы находимся. </li>
-            <li>mkdir - расшифровывается как "Make directory", что переводится как "создать папку".</li>
-            <li>mv - расфшифровывается как"Move", что переводится как "переместить", "передвинуть". С помощью нее можно переместить, переименовать или удалить файл/</li>
+            <li>git init — создаёт новый локальный репозиторий в текущей папке.</li>
+            <li>git clone <url> — копирует существующий удалённый репозиторий на ваш компьютер.</li>
+            <li>git status — показывает состояние файлов в рабочем каталоге (изменённые, новые, подготовленные к коммиту).</li>
+            <li>git add <файл> — добавляет файлы в индекс (staging area) для подготовки к сохранению.</li>
+            <li>git commit -m "сообщение" — сохраняет проиндексированные изменения в историю репозитория.</li>
+            <li>git diff — показывает разницу между файлами в рабочей директории и индексом</li>
+            <li>git branch — выводит список локальных веток.</li>
+            <li>git switch -c <ветка> — создаёт новую ветку и сразу переключается на неё.</li>
+            <li>git merge <ветка> — объединяет изменения из указанной ветки в текущую.</li>
+            <li>git remote -v — показывает список подключенных удалённых репозиториев.</li>
+            <li>git fetch — скачивает последние изменения с удалённого сервера без их слияния с вашим кодом.</li>
+            <li>git pull — скачивает изменения с удалённого сервера и сразу объединяет их с текущей веткой.</li>
+            <li>git push — отправляет ваши локальные коммиты на удалённый репозиторий.</li>
+            <li>git log — выводит историю коммитов.</li>
+            <li>git checkout <файл> или git restore <файл> — отменяет изменения в файле до состояния последнего коммита.</li>
+            <li>git reset <коммит> — откатывает состояние репозитория назад.</li>
          </ul>
       </div>
       <!--footer-->
       <footer class="animated fadeIn">
          <p class="location" align="center">
-            <a href="mac.html">Вернуся на главную</a>
+            <a href="../index.html">Вернуться на главную</a>
          </p>
-         &copy; 202 4. SkyPro
+         &copy; 2024. SkyPro
       </footer>
    </body>
 </html>
